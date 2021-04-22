@@ -1,0 +1,55 @@
+body{
+    background-image:url(/img/goldenrod-flecks.png);
+}
+
+h1{
+text-align: center;
+color: darkviolet;
+}
+
+.result{
+    color: deeppink;
+    text-align: center;
+}
+
+button{
+    background-color: #e84467;
+    color: #000;
+    width: 200px;
+    height: 70px;
+    margin: auto 550px;
+    font-size: 20px;
+
+}
+
+.zero{
+background-image: url(/img/icon_delete.jpg);
+background-repeat: no-repeat;
+}
+
+.player{
+    background-image: url(/img/icon_plus.jpg);
+    background-repeat: no-repeat;
+}
+
+.actions{
+    text-align: center;
+}
+
+.container{
+    margin: 100px auto;
+    width: 250px;
+    height: 250px;
+}
+
+.cell{
+    background-color: #fff;
+    border: 2px solid navajowhite;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.cell:hover{
+    border-color: navy;
+}
